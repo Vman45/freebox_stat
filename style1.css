@@ -1,0 +1,12 @@
+p {
+	font-size: 30px;
+}
+
+.conteneur {
+	display: flex;						/* flexbox */
+	align-items: baseline;				/* alignement des div en bas */
+	height: 100%;						/* hauteur 100% */
+	border: 2px solid #6E6E6E;			/* bordures de la div parent */
+	flex-direction : row-reverse;		/* invertion des divs enfants dans la div parent*/
+	justify-content: flex-end;			/* début des divs enfants au début de la div parent (flex-end et non flex-start car "flex-direction : row-reverse") */
+}
