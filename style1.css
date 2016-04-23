@@ -10,3 +10,5 @@ p {
 	flex-direction : row-reverse;		/* invertion des divs enfants dans la div parent*/
 	justify-content: flex-end;			/* début des divs enfants au début de la div parent (flex-end et non flex-start car "flex-direction : row-reverse") */
 }
+
+/* test modif depuis github */
